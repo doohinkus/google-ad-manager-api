@@ -1,5 +1,7 @@
 # Google Ad Manager Node.js API
 
+![alt google ad manager node js](https://github.com/doohinkus/google-ad-manager-api/blob/main/assets/assets/nodejs-google-ad-manager.png?raw=true)
+
 A modern wrapper around Google's [Ad Manager API](https://developers.google.com/ad-manager/docs/start).
 
 ## Features
