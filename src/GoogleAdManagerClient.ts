@@ -12,7 +12,7 @@ export class GoogleAdManagerClient {
     this.options = options;
   }
 
-  async getService(service: string, token: string): Promise<any> {
+  async getService(service: string, token: string): Promise<unknown | void> {
     const { apiVersion, networkCode } = this.options;
 
     const serviceUrl = `https://ads.google.com/apis/ads/publisher/${apiVersion}/${service}?wsdl`;
