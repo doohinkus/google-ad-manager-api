@@ -1,1 +1,4 @@
-export {DFP, DFPOptions} from './dfp';
+export {
+  GoogleAdManagerClient,
+  GoogleAdManagerClientOptions,
+} from "./GoogleAdManagerClient";

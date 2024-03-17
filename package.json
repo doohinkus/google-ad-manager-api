@@ -1,14 +1,14 @@
 {
   "name": "google-ad-manager-api",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.0",
+  "description": "The Google Ad Manager client libraries offer wrapper functions and features that make it easier to develop client applications. This client provides a wrapper for NodeJS.",
   "scripts": {
     "compile": "tsc -p .",
     "prepare": "npm run compile"
   },
   "author": {
-    "name": "Oz Weiss",
-    "email": "thewizarodofoz@gmail.com"
+    "name": "Rafael",
+    "email": "rafaeliscoding@gmail.com"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -24,15 +24,17 @@
     "api",
     "google apis",
     "client",
-    "client library"
+    "client library",
+    "nodejs google ad manager api"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/thewizarodofoz/google-ad-manager-api.git"
+    "url": "https://github.com/doohinkus/google-ad-manager-api.git"
   },
   "main": "./build/src/index.js",
   "types": "./build/src/index.d.ts",
   "devDependencies": {
+    "@types/soap": "^0.21.0",
     "@types/bluebird": "3.5.23",
     "@types/node": "10.5.8",
     "@types/request": "^2.48.5",
